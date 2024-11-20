@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1732095420423,
+  "startTime": 1732095496952,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1732095420831,
-        "runtime": 353,
+        "end": 1732095497105,
+        "runtime": 110,
         "slow": false,
-        "start": 1732095420478
+        "start": 1732095496995
       },
       "skipped": false,
       "snapshot": {
@@ -75,7 +75,7 @@
             "formatAddress",
             "valid addresses"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "formatAddress valid addresses should format address with custom chars length",
@@ -107,7 +107,7 @@
             "formatAddress",
             "error handling"
           ],
-          "duration": 15,
+          "duration": 16,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "formatAddress error handling should throw AddressFormatError for non-string input",
@@ -139,7 +139,7 @@
             "formatAddress",
             "error handling"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "formatAddress error handling should throw AddressFormatError for invalid address length",
@@ -155,7 +155,7 @@
             "formatAddress",
             "error handling"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "formatAddress error handling should throw AddressFormatError for invalid hex characters",
@@ -177,10 +177,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1732095420866,
-        "runtime": 17,
+        "end": 1732095497141,
+        "runtime": 20,
         "slow": false,
-        "start": 1732095420849
+        "start": 1732095497121
       },
       "skipped": false,
       "snapshot": {
