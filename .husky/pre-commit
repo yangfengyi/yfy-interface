@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 运行 lint
+npm run lint
+
+# 如果 lint 成功，运行测试
+npm test

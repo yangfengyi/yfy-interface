@@ -1,0 +1,32 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript", // 使用 TypeScript 语法解析器
+      "tsx": true, // 启用 TSX (React) 支持
+      "decorators": true, // 启用装饰器支持
+      "dynamicImport": true // 启用动态导入支持
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic", // 使用 React 17+ 的新 JSX 转换
+        "refresh": true // 启用 React Fast Refresh
+      },
+      "legacyDecorator": true, // 使用旧版装饰器语法
+      "decoratorMetadata": true // 为装饰器生成元数据，用于反射
+    },
+    "target": "es2022", // 编译目标为 ES2022
+    "loose": false, // 不使用 "loose" 模式，保持更严格的标准兼容性
+    "externalHelpers": false, // 不使用外部 helpers，将 helpers 内联到代码中
+    "keepClassNames": true // 保留类名，有助于调试
+  },
+  "module": {
+    "type": "es6", // 使用 ES6 模块系统
+    "strict": false, // 不启用严格模式
+    "strictMode": true, // 在每个模块顶部添加 "use strict"
+    "lazy": false, // 不使用懒加载
+    "noInterop": false // 生成 __esModule 标志
+  },
+  "sourceMaps": true, // 生成源映射，便于调试
+  "inlineSourcesContent": true, // 在源映射中内联源代码
+  "minify": true // 不进行代码压缩
+}
