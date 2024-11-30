@@ -1,3 +1,12 @@
+import { Helmet } from 'react-helmet-async';
+
 export default function AboutPage() {
-  return <div>About page</div>;
+  return (
+    <>
+      <Helmet>
+        <title>About page title</title>
+      </Helmet>
+      <div>About page</div>
+    </>
+  );
 }
